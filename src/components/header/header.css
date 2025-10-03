@@ -35,6 +35,7 @@ nav>ul:last-of-type>li {
 }
 nav>ul:last-of-type>li>div{
   display:none;
+  width: 0px;
 }
 nav>ul:last-of-type>li>div.divImgMenu {
   position: absolute;
