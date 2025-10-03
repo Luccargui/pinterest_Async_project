@@ -1,167 +1,227 @@
-📌 Asyncterest
+#📌 Asyncterest
 
-Proyecto desarrollado con Vite, HTML, CSS y JavaScript, que recrea un diseño de Pinterest (basado en un mockup de Figma
-) e integra la API de Unsplash para mostrar imágenes dinámicas.
+Aplicación web inspirada en Pinterest, desarrollada con Vite, HTML, CSS y JavaScript, que consume la API de Unsplash para mostrar imágenes dinámicas en un estilo tipo “masonry grid”.
+Incluye buscador avanzado por autor y metadatos de las imágenes, interacción con likes animados, botones de descarga y redirección a los portfolios de los autores.
 
-🌐 Demo desplegada en: Asyncterest
+🌐 Demo desplegada en: [Asyncterest]([url](https://asyncterest.netlify.app))
 
-🚀 Tecnologías utilizadas
+A web application inspired by Pinterest, built with Vite, HTML, CSS, and JavaScript, that consumes the Unsplash API to display dynamic images in a Pinterest-like “masonry grid”.
+It features an advanced search by author and image metadata, interactive like animations, download buttons, and links to authors’ portfolios.
 
-Vite
- - Bundler rápido y ligero.
+🌐 Demo deployed in: [Asyncterest]([url](https://asyncterest.netlify.app))
 
-HTML5 - Estructura del proyecto.
+##📑 Tabla de Contenidos / Table of Contents:
 
-CSS3 - Estilos y animaciones.
+[🚀 Tecnologías utilizadas / Built With](#tecnologias)
 
-JavaScript (ES6+) - Funcionalidad y lógica del proyecto.
+[🎨 Diseño / Design](#diseno)
 
-Unsplash API
- - Proveedor de imágenes dinámicas.
+[🧩 Funcionalidades principales / Main Features](#funcionalidades)
 
-🎨 Diseño
+[📑 SEO y Open Graph / SEO & Open Graph](#seo)
 
-El proyecto recrea la interfaz de Pinterest, adaptado del diseño en Figma.
-Se han creado logos e íconos personalizados (favicon, Apple Touch Icon, logo principal) en distintos tamaños para un branding consistente:
+[📥 Instalación y uso / Installation & Usage](#instalacion)
 
-16x16 px
+[📸 Capturas / Screenshots](#capturas)
 
-32x32 px
+[👩‍💻 Autora / Author](#autora)
 
-180x180 px
+<a name="tecnologias"></a>
 
-🧩 Funcionalidades principales
-🔹 Header
+##🚀 Tecnologías utilizadas / Built With
 
-Logo Asyncterest → Recarga la página y restablece la galería.
+**Vite**
 
-Menú de navegación (ul > li):
+- Bundler rápido y ligero.
 
-Inicio → Recarga la página de Asyncterest.
+- Fast and lightweight bundler.
 
-Explorar → Abre la página de explorar de Pinterest en nueva pestaña.
+**HTML5**
 
-Crear → Abre la página de crear de Pinterest en nueva pestaña.
+- Estructura del proyecto.
 
-Buscador con lupa + input: permite buscar imágenes por:
+- Project structure.
 
-Nombre completo, nombre, apellido o username del autor.
+**CSS3**
 
-Ubicación del autor.
+- Estilos y animaciones.
 
-Instagram del autor.
+- Styles and animations.
 
-Descripción alt o descripción de la imagen.
+**JavaScript (ES6+)**
 
-"Topic submissions" asociados.
-➡️ Búsqueda con Enter o clic en la lupa.
+- Funcionalidad y lógica del proyecto.
 
-Iconos de usuario (ul > li) con menús desplegables al hacer clic:
+- Functionality and project logic.
 
-🔔 Notificaciones → “No hay notificaciones”.
+**Unsplash API**
 
-✉️ Mensajes → “La bandeja de entrada está vacía”.
+- Proveedor de imágenes dinámicas.
 
-👤 Usuario → “¡Eres tú! 😀”.
+- Provider of dynamic images.
 
-🔹 Galería de imágenes
+<a name="diseno"></a>
 
-Cada card (article) incluye:
+##🎨 Diseño / Design
 
-Imagen principal (figure) con efectos en hover:
+El proyecto recrea la interfaz de Pinterest, adaptado de un diseño en Figma.
+Se han creado logos e íconos personalizados (favicon, Apple Touch Icon, logo principal) en distintos tamaños:
 
-overlay que oscurece la imagen.
+The project recreates the Pinterest interface, adapted from a Figma design.
+Custom logos and icons were created (favicon, Apple Touch Icon, main logo) in various sizes:
 
-Icono de 📷 con cantidad de fotos del autor.
+- 16x16 px
 
-Icono de ❤️ con cantidad de likes:
+- 32x32 px
 
-cursor: pointer + scale(1.1) al pasar encima.
+- 180x180 px
 
-Si haces clic:
+<a name="funcionalidades"></a>
 
-👍 Se suma un like + animación de cambio de color (gris → rojizo → rojo logo → rojizo → gris).
+##🧩 Funcionalidades principales / Main Features
+###🔹 Header
 
-👎 Si lo clicas otra vez, se resta el like (sin animación).
+- Logo Asyncterest → Recarga la página y restablece la galería.
 
-Botón rojo Visitar → lleva a la página original de la imagen.
+- Menú de navegación (ul > li):
 
-Información adicional bajo la imagen:
+  - Inicio → Recarga Asyncterest.
 
-Nombre del autor.
+  - Explorar → Abre Pinterest Explore en nueva pestaña.
 
-Botón de descarga de la imagen.
+  - Crear → Abre Pinterest Create en nueva pestaña.
 
-Fecha de subida.
+- Buscador con lupa + input → búsqueda avanzada por:
 
-Imagen de perfil del autor:
+  - Nombre completo, nombre, apellido o username del autor.
 
-border-radius: 50% (circular).
+  - Ubicación del autor.
 
-Borde exterior con un color aleatorio (5 opciones).
+  - Instagram del autor.
 
-Enlace al portfolio del autor o su perfil en Unsplash.
+  - Descripción alt o descripción de la imagen.
 
-🔹 Layout responsivo
+  - Topic submissions.
+➡️ Funciona con Enter o clic en la lupa.
 
-El main utiliza CSS Grid.
+- Íconos (ul > li) con menús desplegables:
 
-El número de columnas se ajusta automáticamente al ancho del dispositivo.
+  - 🔔 Notificaciones → “No hay notificaciones”.
 
-Las cards tienen tamaños aleatorios para simular el estilo de Pinterest.
+  - ✉️ Mensajes → “La bandeja de entrada está vacía”.
 
-📑 SEO y Open Graph
+  - 👤 Usuario → “¡Eres tú! 😀”.
 
-En el <head> se han añadido las principales etiquetas para SEO y redes sociales:
+###🔹 Galería de imágenes / Image Gallery
 
-Metadatos SEO:
+Cada card (article) incluye / Each card (article) includes:
 
-meta description
+- Imagen principal (figure) con efectos en hover:
 
-meta keywords
+-  Overlay que oscurece la imagen.
 
-meta author
+  - 📷 Cantidad de fotos del autor.
 
-meta robots
+  - ❤️ Likes interactivos:
 
-canonical
+    - Hover → cursor: pointer + scale(1.1).
 
-Open Graph (para compartir en redes sociales):
+    - Clic 1 → suma un like + animación (gris → rojizo → rojo → gris).
 
-og:title, og:description, og:image, og:url, og:type
+    - Clic 2 → resta el like (sin animación).
 
-Favicons & Apple Touch Icons incluidos en varios tamaños.
+  - Botón rojo Visitar → abre la página original de la imagen.
 
-📥 Instalación y uso
+- Información adicional debajo:
 
-Clona el repositorio y ejecuta localmente con Vite:
+- Nombre del autor.
 
-# Clonar repositorio
+- Botón de descarga.
+
+- Fecha de subida.
+
+- Imagen de perfil circular con color de borde aleatorio (5 colores posibles).
+
+  - Enlace al portfolio o perfil de Unsplash del autor.
+
+###🔹 Layout responsivo / Responsive Layout
+
+- El main usa CSS Grid.
+
+- Número de columnas se adapta al tamaño de pantalla.
+
+- Cards con tamaños aleatorios para simular Pinterest.
+
+<a name="seo"></a>
+
+##📑 SEO y Open Graph / SEO & Open Graph
+
+En el <head> se añadieron etiquetas para SEO y redes sociales / In the <head>, key SEO and social sharing tags were included:
+
+- Metadatos SEO / SEO Metadata:
+
+- meta description, meta keywords, meta author, meta robots, canonical.
+
+- Open Graph (para redes sociales / for social media):
+
+  - og:title, og:description, og:image, og:url, og:type.
+
+- Favicons & Apple Touch Icons en varios tamaños / in multiple sizes.
+
+<a name="instalacion"></a>
+
+##📥 Instalación y uso / Installation & Usage
+
+
+Clona el repositorio y ejecútalo con Vite / Clone the repo and run it with Vite:
+
+1.  Clonar repositorio / Clone repository
+```bash
 git clone https://github.com/tuusuario/asyncterest.git
+ ```
 
-# Entrar al directorio
+2. Entrar al directorio / Enter directory
+```bash
 cd asyncterest
+ ```
 
-# Instalar dependencias
+3. Instalar dependencias / Install dependencies
+```bash
 npm install
+ ```
 
-# Ejecutar en desarrollo
+4. Ejecutar en desarrollo / Run in development
+```bash
 npm run dev
+ ```
 
-# Generar build para producción
+5. Generar build de producción / Build for production
+```bash
 npm run build
+ ```
+---
 
-📸 Capturas
+<a name="capturas"></a>
 
-(Agrega aquí screenshots del proyecto para mostrar la galería y el header.)
+##📸 Capturas / Screenshots
+### 🖥️ Ordenador / Desktop
+<img width="1899" height="900" alt="image" src="https://github.com/user-attachments/assets/40d46774-81ea-4a2d-aad5-b710eafbf5ab" />
+###📱 Móvil / Mobile
+<img width="383" height="834" alt="image" src="https://github.com/user-attachments/assets/df4a4741-0c6f-4426-8c21-8762eab06759" />
 
-👩‍💻 Autora
+---
+<a name="autora"></a>
 
-Lucía Carrera Guillén
-Proyecto personal para practicar:
+##👩‍💻 Autora / Author
 
-Async / Await con API REST.
+Proyecto desarrollado por **Lucía Carrera** ✨  
+Project developed by **Lucía Carrera** ✨  
 
-Creación de componentes reutilizables en JS.
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/25c6a90f-c9e1-4c9b-9083-b351d83c26e2" />  GitHub: [@Luccargui](https://github.com/Luccargui)  
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/7d6cf970-cb61-4a08-8bf8-75ed27d3b9a1" /> LinkedIn: [Lucía Carrera Guillén](https://www.linkedin.com/in/lucia-carrera-guillen/)  
 
-Diseño responsivo con Grid y CSS avanzado.
+- Async / Await con API REST.
+
+- Creación de componentes reutilizables en JS.
+
+- Diseño responsivo con CSS Grid.
