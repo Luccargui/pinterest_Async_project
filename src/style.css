@@ -1,0 +1,66 @@
+:root {
+  /*COLORS*/
+  /*bg*/
+  --bg-color: #ffffff;
+  --bg-hover: #ffffff00;
+  --bg-vector-color: #E7E7E7;
+  /*elements*/
+  --input-color:#f1f1f1;
+  --inicio-button-color: #000000;
+  --visitar-button-color:#FF0000;
+/*user-hues*/
+--user-color-1:#f1c40e;
+--user-color-2:#e77e23;
+--user-color-3:#e74d3c;
+--user-color-4:#3398db;
+--user-color-5:#8d43ad;
+
+/*SPACING*/
+/*Margin*/
+--margin-xxs: 5px;
+--margin-xs: 10px;
+--margin-s: 20px;
+--margin-m: 30px;
+--margin-l: 50px;
+--margin-xl: 75px;
+--margin-xxl: 100px;
+/*Padding*/
+--padding-xxs: 5px;
+--padding-xs: 10px;
+--padding-s: 20px;
+--padding-m: 30px;
+--padding-l: 50px;
+--padding-xl: 75px;
+--padding-xxl: 100px;
+/*Gap*/
+--gap-xxs: 5px;
+--gap-xs: 10px;
+--gap-s: 20px;
+--gap-m: 30px;
+--gap-l: 50px;
+--gap-xl: 75px;
+--gap-xxl: 100px;
+/*SIZE*/
+--border-radius:15px;
+--border-radius-btn: 30px;
+--border-radius-perfil: 100%;
+/*font-size*/
+--font-size-xxxs: 6px;
+--font-size-xxs: 8px;
+--font-size-xs: 11px;
+--font-size-s: 15px;
+--font-size-m: 18px;
+--font-size-l: 20px;
+--font-size-xl: 22px;
+--font-size-xxl: 24px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: var(--inicio-button-color);
+}
+a{
+  cursor: pointer;
+}
