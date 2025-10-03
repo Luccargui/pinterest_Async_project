@@ -90,7 +90,14 @@ export const cardPrinting = (data) => {
 
     imgDownloadButton.src = "./assets/media/vectorDescarga.png";
     imgDownloadButton.alt = "Descargar";
-   aImgUser.href = element.user.portfolio_url;
+   
+try {
+  new URL(element.user.portfolio_url);
+  aImgUser.href = element.user.portfolio_url;
+} catch {
+  aImgUser.href = element.user.links.html;
+}
+
      aImgUser.target = "_blank";
     imgUser.classList.add("profileImage");
     imgUser.src = element.user.profile_image.medium;
