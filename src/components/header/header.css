@@ -81,6 +81,7 @@ nav>ul:first-of-type>li:first-of-type>a {
 }
 nav>div {
   display: flex;
+  align-items: center; 
   gap: var(--gap-xxs);
   width: 70%;
   background-color: var(--input-color);
@@ -126,14 +127,14 @@ nav> ul> li>a:hover {
   justify-content: center;
   align-items: center;
 }
-  nav>ul>li, nav>ul:first-of-type{
+nav>img {
+  margin: 0px var(--margin-xs) 0px var(--margin-xxs);
+}
+  nav>ul:first-of-type, nav>ul:first-of-type>li, nav>ul:last-of-type>li:first-of-type, nav>ul:last-of-type>li:nth-last-of-type(2){
     display:none;
     width:0px;
   }
-  nav>ul:last-of-type>li:last-child{
-    display:flex;
-    padding-right: var(--padding-xxs);
-  }
+
   nav>div{
     width:85%;
   }
