@@ -1,11 +1,11 @@
 # 📌 Asyncterest
 
-Aplicación web inspirada en Pinterest, desarrollada con Vite, HTML, CSS y JavaScript, que consume la API de Unsplash para mostrar imágenes dinámicas en un estilo tipo “masonry grid”.
+Aplicación web inspirada en Pinterest, desarrollada con Vite, HTML, CSS y JavaScript, que consume la API de Unsplash para mostrar imágenes dinámicas.
 Incluye buscador avanzado por autor y metadatos de las imágenes, interacción con likes animados, botones de descarga y redirección a los portfolios de los autores.
 
 🌐 Demo desplegada en: [Asyncterest](https://asyncterest.netlify.app)
 
-A web application inspired by Pinterest, built with Vite, HTML, CSS, and JavaScript, that consumes the Unsplash API to display dynamic images in a Pinterest-like “masonry grid”.
+A web application inspired by Pinterest, built with Vite, HTML, CSS, and JavaScript, that consumes the Unsplash API to display dynamic images in a Pinterest-like grid.
 It features an advanced search by author and image metadata, interactive like animations, download buttons, and links to authors’ portfolios.
 
 🌐 Demo deployed in: [Asyncterest](https://asyncterest.netlify.app)
