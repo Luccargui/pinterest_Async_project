@@ -205,11 +205,22 @@ npm run build
 <a name="capturas"></a>
 
 ## 📸 Capturas / Screenshots
-## # 🖥️ Ordenador / Desktop
+### 🖥️ Ordenador / Desktop:
+- Sin foco en card:
 <img width="1899" height="900" alt="image" src="https://github.com/user-attachments/assets/40d46774-81ea-4a2d-aad5-b710eafbf5ab" />
-## #📱 Móvil / Mobile
+
+- Con foco en card:
+<img width="1902" height="906" alt="image" src="https://github.com/user-attachments/assets/0f8e7a32-fa41-44c5-a122-1e536b39f26c" />
+
+
+###📱 Móvil / Mobile:
+- Sin foco en card:
 <img width="383" height="834" alt="image" src="https://github.com/user-attachments/assets/df4a4741-0c6f-4426-8c21-8762eab06759" />
 
+- Con foco en card:
+<img width="385" height="834" alt="image" src="https://github.com/user-attachments/assets/d2d02d34-e84f-4afc-a09a-9d47dd5f06a2" />
+
+  
 ---
 <a name="autora"></a>
 
