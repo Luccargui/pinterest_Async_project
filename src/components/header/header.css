@@ -134,7 +134,9 @@ nav>img {
     display:none;
     width:0px;
   }
-
+nav>ul:last-of-type>li:last-of-type {
+  margin: 0px var(--margin-xs) 0px 0px;
+}
   nav>div{
     width:85%;
   }
