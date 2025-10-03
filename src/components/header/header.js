@@ -2,7 +2,7 @@ import "./header.css";
 
 export const arrayLiMenu=[
   {name: "Inicio",
-    link: "https://es.pinterest.com/",
+    link: "https://asyncterest.netlify.app",
   },
     {name: "Explorar",
     link: "https://es.pinterest.com/ideas/",
