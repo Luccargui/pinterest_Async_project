@@ -43,16 +43,19 @@ export const desplegarDiv = (img, div) => {
 export const createLi = (array, parent) => {
   for (const element of array) {
     if ("name" in element) {
-      // Links del menú principal
       const li = document.createElement("li");
       const a = document.createElement("a");
       a.textContent = element.name;
       a.href = element.link;
+      if (element.link.includes("netlify")) {
+        a.target = "_self";
+      } else {
+        a.target = "_blank";
+      }
       a.target = "_blank";
       li.appendChild(a);
       parent.appendChild(li);
     } else {
-      // Iconos (campana, mensajes, usuario)
       const li = document.createElement("li");
       const imgLi = document.createElement("img");
       const divLi = document.createElement("div");
@@ -67,8 +70,7 @@ export const createLi = (array, parent) => {
       li.appendChild(divLi);
       parent.appendChild(li);
 
-    
-      desplegarDiv(imgLi, divLi);
+        desplegarDiv(imgLi, divLi);
     }
   }
 };
