@@ -9,7 +9,8 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 grid-gap: var(--gap-xs);
   box-sizing: border-box;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  padding-top: var(--padding-l);
 }
 .card{
   display: flex;

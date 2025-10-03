@@ -1,5 +1,7 @@
 nav {
   width: 100%;
+  position: fixed;
+  background-color: var(--bg-color);
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -7,6 +9,8 @@ nav {
   overflow: visible;
   gap: var(--gap-xxs);
   padding: var(--padding-xs) var(--padding-s);
+  z-index: 1000;
+  margin-top: 0;
 }
 
 nav>img, nav>ul>li>img {
