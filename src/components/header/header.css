@@ -21,6 +21,29 @@ nav>img:hover {
 nav>ul>li>img:hover {
   transform: scale(1.1);
 }
+nav>ul:last-of-type>li {
+  position: relative;
+}
+nav>ul:last-of-type>li>div{
+  display:none;
+}
+nav>ul:last-of-type>li>div.divImgMenu {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-xs);
+  border-radius: var(--border-radius);
+ -webkit-box-shadow: 1px 2px 15px -1px #000000; 
+box-shadow: 1px 2px 15px -1px #000000;
+  top:40px;
+  right:0;
+  display: flex;
+  height: 100px;
+  width: 100px;
+  z-index: 9;
+  background-color: var(--bg-color);
+}
 nav> ul {
   display: flex;
   align-items: center;

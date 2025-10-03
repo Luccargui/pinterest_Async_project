@@ -1,5 +1,5 @@
 import './style.css';
-import { createHeader } from "./components/header/header.js";
+import { createHeader, desplegarDiv} from "./components/header/header.js";
 import { cardPrinting } from "./components/cardPrinting/cardPrinting.js";
 import { filteredCards, filtrarCards } from "./components/busquedaFilter/busquedaFilter.js";
 
@@ -47,3 +47,4 @@ const lupa = document.querySelector("header>nav>div:first-of-type>img");
 
 lupa.addEventListener("change", filterPrinting);
 inputMenu.addEventListener("change", filterPrinting); 
+
