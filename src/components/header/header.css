@@ -124,21 +124,32 @@ nav> ul> li>a:hover {
 }
 @media(max-width: 700px){
   nav {
-  height: 55px;
   justify-content: center;
   align-items: center;
 }
 nav>img {
-  margin: 0px var(--margin-xs) 0px var(--margin-xxs);
+  margin: 0px var(--margin-xs) 0px 0px;
+  width: 7%;
 }
   nav>ul:first-of-type, nav>ul:first-of-type>li, nav>ul:last-of-type>li:first-of-type, nav>ul:last-of-type>li:nth-last-of-type(2){
     display:none;
     width:0px;
   }
-nav>ul:last-of-type>li:last-of-type {
-  margin: 0px var(--margin-xs) 0px var(--margin-xxs);
+ nav>ul:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0px var(--margin-xs) 0px 0px;
+    width: 7%;
+  }
+  nav>ul:last-of-type>li:last-of-type {
+  width: 100%;  
+  }
+nav>ul:last-of-type>li:last-of-type>img {
+  margin: 0px;
+  
 }
   nav>div{
-    width:90%;
+    width:85%;
   }
 }
