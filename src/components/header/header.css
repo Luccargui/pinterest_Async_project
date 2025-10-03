@@ -124,6 +124,7 @@ nav> ul> li>a:hover {
 }
 @media(max-width: 700px){
   nav {
+  height: 55px;
   justify-content: center;
   align-items: center;
 }
