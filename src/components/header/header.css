@@ -121,7 +121,6 @@ nav> ul> li>a:hover {
 @media(max-width: 700px){
   nav{
     justify-content:center;
-    padding: 0px var(--padding-xxs);
   }
   nav>ul>li{
     display:none;
@@ -129,6 +128,7 @@ nav> ul> li>a:hover {
   }
   nav>ul:last-of-type>li:last-child{
     display:flex;
+    padding-right: var(--padding-xxs);
   }
   nav>div{
     width:85%;
