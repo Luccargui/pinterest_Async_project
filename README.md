@@ -1,16 +1,17 @@
-#📌 Asyncterest
+# 📌 Asyncterest
 
 Aplicación web inspirada en Pinterest, desarrollada con Vite, HTML, CSS y JavaScript, que consume la API de Unsplash para mostrar imágenes dinámicas en un estilo tipo “masonry grid”.
 Incluye buscador avanzado por autor y metadatos de las imágenes, interacción con likes animados, botones de descarga y redirección a los portfolios de los autores.
 
-🌐 Demo desplegada en: [Asyncterest]([url](https://asyncterest.netlify.app))
+🌐 Demo desplegada en: [Asyncterest](https://asyncterest.netlify.app)
 
 A web application inspired by Pinterest, built with Vite, HTML, CSS, and JavaScript, that consumes the Unsplash API to display dynamic images in a Pinterest-like “masonry grid”.
 It features an advanced search by author and image metadata, interactive like animations, download buttons, and links to authors’ portfolios.
 
-🌐 Demo deployed in: [Asyncterest]([url](https://asyncterest.netlify.app))
+🌐 Demo deployed in: [Asyncterest](https://asyncterest.netlify.app)
 
-##📑 Tabla de Contenidos / Table of Contents:
+
+## 📑 Tabla de Contenidos / Table of Contents:
 
 [🚀 Tecnologías utilizadas / Built With](#tecnologias)
 
@@ -28,7 +29,7 @@ It features an advanced search by author and image metadata, interactive like an
 
 <a name="tecnologias"></a>
 
-##🚀 Tecnologías utilizadas / Built With
+## 🚀 Tecnologías utilizadas / Built With
 
 **Vite**
 
@@ -62,7 +63,7 @@ It features an advanced search by author and image metadata, interactive like an
 
 <a name="diseno"></a>
 
-##🎨 Diseño / Design
+## 🎨 Diseño / Design
 
 El proyecto recrea la interfaz de Pinterest, adaptado de un diseño en Figma.
 Se han creado logos e íconos personalizados (favicon, Apple Touch Icon, logo principal) en distintos tamaños:
@@ -78,8 +79,8 @@ Custom logos and icons were created (favicon, Apple Touch Icon, main logo) in va
 
 <a name="funcionalidades"></a>
 
-##🧩 Funcionalidades principales / Main Features
-###🔹 Header
+## 🧩 Funcionalidades principales / Main Features
+## #🔹 Header
 
 - Logo Asyncterest → Recarga la página y restablece la galería.
 
@@ -112,7 +113,7 @@ Custom logos and icons were created (favicon, Apple Touch Icon, main logo) in va
 
   - 👤 Usuario → “¡Eres tú! 😀”.
 
-###🔹 Galería de imágenes / Image Gallery
+## #🔹 Galería de imágenes / Image Gallery
 
 Cada card (article) incluye / Each card (article) includes:
 
@@ -144,7 +145,7 @@ Cada card (article) incluye / Each card (article) includes:
 
   - Enlace al portfolio o perfil de Unsplash del autor.
 
-###🔹 Layout responsivo / Responsive Layout
+## #🔹 Layout responsivo / Responsive Layout
 
 - El main usa CSS Grid.
 
@@ -154,7 +155,7 @@ Cada card (article) incluye / Each card (article) includes:
 
 <a name="seo"></a>
 
-##📑 SEO y Open Graph / SEO & Open Graph
+## 📑 SEO y Open Graph / SEO & Open Graph
 
 En el <head> se añadieron etiquetas para SEO y redes sociales / In the <head>, key SEO and social sharing tags were included:
 
@@ -170,7 +171,7 @@ En el <head> se añadieron etiquetas para SEO y redes sociales / In the <head>, 
 
 <a name="instalacion"></a>
 
-##📥 Instalación y uso / Installation & Usage
+## 📥 Instalación y uso / Installation & Usage
 
 
 Clona el repositorio y ejecútalo con Vite / Clone the repo and run it with Vite:
@@ -203,16 +204,16 @@ npm run build
 
 <a name="capturas"></a>
 
-##📸 Capturas / Screenshots
-### 🖥️ Ordenador / Desktop
+## 📸 Capturas / Screenshots
+## # 🖥️ Ordenador / Desktop
 <img width="1899" height="900" alt="image" src="https://github.com/user-attachments/assets/40d46774-81ea-4a2d-aad5-b710eafbf5ab" />
-###📱 Móvil / Mobile
+## #📱 Móvil / Mobile
 <img width="383" height="834" alt="image" src="https://github.com/user-attachments/assets/df4a4741-0c6f-4426-8c21-8762eab06759" />
 
 ---
 <a name="autora"></a>
 
-##👩‍💻 Autora / Author
+## 👩‍💻 Autora / Author
 
 Proyecto desarrollado por **Lucía Carrera** ✨  
 Project developed by **Lucía Carrera** ✨  
