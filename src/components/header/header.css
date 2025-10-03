@@ -136,6 +136,7 @@ nav>img {
   }
 nav>ul:last-of-type>li:last-of-type {
   margin: 0px var(--margin-xxs) 0px 0px;
+  align-self: center;
 }
   nav>div{
     width:90%;
