@@ -1,5 +1,5 @@
 import { apiUnsplash, setupSearchListeners } from "./components/createApi/createApi";
-import { createHeader } from "./components/Header/Header";
+import { createHeader } from "./components/header/header";
 import "./style.css";
 
 
