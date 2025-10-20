@@ -4,5 +4,5 @@ import "./style.css";
 
 
 createHeader();
-apiUnsplash();
-setupSearchListeners();
+apiUnsplash(); // load default photos
+setupSearchListeners(); // enable search
