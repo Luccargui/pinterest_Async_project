@@ -1,12 +1,12 @@
 # 📌 Asyncterest
 
 Aplicación web inspirada en Pinterest, desarrollada con Vite, HTML, CSS y JavaScript, que consume la API de Unsplash para mostrar imágenes dinámicas.
-Incluye buscador avanzado por autor y metadatos de las imágenes, interacción con likes animados, botones de descarga y redirección a los portfolios de los autores.
+Incluye buscador de imágenes, interacción con likes animados, botones de descarga y redirección a los portfolios de los autores.
 
 🌐 Demo desplegada en: [Asyncterest](https://asyncterest.netlify.app)
 
 A web application inspired by Pinterest, built with Vite, HTML, CSS, and JavaScript, that consumes the Unsplash API to display dynamic images in a Pinterest-like grid.
-It features an advanced search by author and image metadata, interactive like animations, download buttons, and links to authors’ portfolios.
+It features an advanced search by image, interactive like animations, download buttons, and links to authors’ portfolios.
 
 🌐 Demo deployed in: [Asyncterest](https://asyncterest.netlify.app)
 
@@ -94,13 +94,6 @@ Custom logos and icons were created (favicon, Apple Touch Icon, main logo) in va
 
 - Buscador con lupa + input → búsqueda avanzada por:
 
-  - Nombre completo, nombre, apellido o username del autor.
-
-  - Ubicación del autor.
-
-  - Instagram del autor.
-
-  - Descripción alt o descripción de la imagen.
 
   - Topic submissions.
 ➡️ Funciona con Enter o clic en la lupa.
