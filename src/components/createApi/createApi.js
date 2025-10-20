@@ -1,4 +1,4 @@
-import { cardPrinting } from "../cardPrinting/cardPrinting";
+import { cardPrinting } from "..cardPrinting.js";
 
 export let data = [];
 export let searchValue = "";
