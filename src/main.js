@@ -4,7 +4,5 @@ import "./style.css";
 
 
 createHeader();
-apiUnsplash(); // load default photos
-setupSearchListeners(); // enable search
-
-//  cardPrinting(data);
+apiUnsplash();
+setupSearchListeners();
