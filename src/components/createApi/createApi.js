@@ -1,7 +1,7 @@
 import { cardPrinting } from "../cardPrinting/cardPrinting";
 
 export let data = [];
-let searchValue = "";
+export let searchValue = "";
 
 export async function apiUnsplash() {
   try {
