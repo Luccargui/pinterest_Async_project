@@ -10,12 +10,15 @@ const header = document.querySelector("header");
 
 export const createHeader = () => {
   const nav = document.createElement("nav");
+  const aLogo = document.createElement("a");
   const logo = document.createElement("img");
   const ulMenu = document.createElement("ul");
   const divInput = document.createElement("div");
   const inputMenu = document.createElement("input");
   const lupa = document.createElement("img");
   const ulVector = document.createElement("ul");
+
+  aLogo.href="#";
 
   logo.src = "./assets/media/logoAsynterest_header.png";
   logo.alt = "logo";
@@ -30,7 +33,8 @@ export const createHeader = () => {
   lupa.classList.add("lupa");
 
   header.appendChild(nav);
-  nav.appendChild(logo);
+  nav.appendChild(aLogo);
+  aLogo.appendChild(logo);
   nav.appendChild(ulMenu);
   nav.appendChild(divInput);
   divInput.appendChild(lupa);
