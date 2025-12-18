@@ -18,7 +18,7 @@ export const createHeader = () => {
   const lupa = document.createElement("img");
   const ulVector = document.createElement("ul");
 
-  aLogo.href="#";
+  aLogo.href="./src/main.js";
 
   logo.src = "./assets/media/logoAsynterest_header.png";
   logo.alt = "logo";
@@ -28,7 +28,7 @@ export const createHeader = () => {
 
   inputMenu.type = "text";
   inputMenu.placeholder = "Buscar...";
-  lupa.src = "/assets/media/vectorLupa.png";
+  lupa.src = "./assets/media/vectorLupa.png";
   lupa.alt = "Lupa";
   lupa.classList.add("lupa");
 
