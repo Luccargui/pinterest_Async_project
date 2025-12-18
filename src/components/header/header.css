@@ -23,7 +23,7 @@ nav>ul {
   justify-content: center;
   align-items: center;
 }
-nav>img, nav>ul>li>button>img{
+nav>a>img, nav>ul>li>button>img{
   object-fit: contain;
   width:20px;
   cursor: pointer;
@@ -36,7 +36,7 @@ nav>ul>li>button {
    border: none;
   background-color: transparent;
 }
-nav>img:hover {
+nav>a>img:hover {
   transform: rotate(360deg);
 }
 nav>ul>li>button>img:hover {
@@ -141,7 +141,7 @@ nav> ul> li>a:hover {
   justify-content: center;
   align-items: center;
 }
-nav>img {
+nav>a>img {
   margin: 0px var(--margin-xs) 0px 0px;
   width: 7%;
 }
