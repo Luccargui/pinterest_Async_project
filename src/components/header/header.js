@@ -18,8 +18,7 @@ export const createHeader = () => {
   const lupa = document.createElement("img");
   const ulVector = document.createElement("ul");
 
-  aLogo.href="./src/main.js";
-
+  aLogo.href = "/";
   logo.src = "./assets/media/logoAsynterest_header.png";
   logo.alt = "logo";
 
